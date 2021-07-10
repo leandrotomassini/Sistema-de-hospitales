@@ -1,7 +1,7 @@
 /*
 Template Name: Material Pro admin
-Author: Leandro C. Tomassini
-Email: contacto@airepublico.com
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
 File: js
 */
 $(function() {
