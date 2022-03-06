@@ -1,46 +1,41 @@
-
-
-
 <div id="main-wrapper">
 
-    <app-header></app-header>
+  <app-header></app-header>
 
-    <app-sidebar></app-sidebar>
+  <app-sidebar></app-sidebar>
 
-    <div class="page-wrapper">
-        <div class="container-fluid">
-            <!-- Breadcrumbs -->
-            <app-breadcrumbs></app-breadcrumbs>
+  <div class="page-wrapper">
+    <div class="container-fluid">
 
-            <!-- Mi sistema de rutas -->
-            <router-outlet></router-outlet>
+      <!-- Breadcrumbs -->
+      <app-breadcrumbs></app-breadcrumbs>
 
-            <!-- 
-            <div class="row">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-body">
-                            
-                        </div>
-                    </div>
-                </div>
-            </div> 
-            -->
-
+      <!-- Mi sistema de rutas -->
+      <!-- ============================================================== -->
+      <!-- Start Page Content -->
+      <!-- ============================================================== -->
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-body">
+              <router-outlet></router-outlet>
+            </div>
+          </div>
         </div>
-
-        <!-- ============================================================== -->
-        <!-- footer -->
-        <!-- ============================================================== -->
-        <footer class="footer">
-            © 20xx Admin Pro by wrappixel.com
-        </footer>
-        <!-- ============================================================== -->
-        <!-- End footer -->
-        <!-- ============================================================== -->
-
+      </div>
+      <!-- ============================================================== -->
+      <!-- End PAge Content -->
+      <!-- ============================================================== -->
     </div>
-
+    <!-- ============================================================== -->
+    <!-- footer -->
+    <!-- ============================================================== -->
+    <footer class="footer">
+      © 2022 Admin Pro by wrappixel.com
+    </footer>
+    <!-- ============================================================== -->
+    <!-- End footer -->
+    <!-- ============================================================== -->
+  </div>
 
 </div>
-
