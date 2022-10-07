@@ -1,10 +1,5 @@
-
-
-
 <div id="main-wrapper">
-
     <app-header></app-header>
-
     <app-sidebar></app-sidebar>
 
     <div class="page-wrapper">
@@ -13,34 +8,31 @@
             <app-breadcrumbs></app-breadcrumbs>
 
             <!-- Mi sistema de rutas -->
-            <router-outlet></router-outlet>
-
-            <!-- 
+            <!-- ============================================================== -->
+            <!-- Start Page Content -->
+            <!-- ============================================================== -->
             <div class="row">
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            
+                            <router-outlet></router-outlet>
                         </div>
                     </div>
                 </div>
-            </div> 
-            -->
-
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Page Content -->
+            <!-- ============================================================== -->
         </div>
 
         <!-- ============================================================== -->
         <!-- footer -->
         <!-- ============================================================== -->
         <footer class="footer">
-            © 20xx Admin Pro by wrappixel.com
+            © 20xx Admin Pro by airepublico.com
         </footer>
         <!-- ============================================================== -->
         <!-- End footer -->
         <!-- ============================================================== -->
-
     </div>
-
-
 </div>
-

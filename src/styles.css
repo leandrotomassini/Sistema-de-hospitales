@@ -1,19 +1,7 @@
-
-.fast{
+/* You can add global styles to this file, and also import other style files */
+.fast {
     -webkit-animation-duration: 0.3s;
     animation-duration: 0.3s;
-    -webkit-animation-fill-mode:both;
-    animation-fill-mode:both
-}
-
-#themecolors .selector, .cursor {
-    cursor: pointer;
-}
-
-
-#google-btn {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
