@@ -1,7 +1,7 @@
 /*
-Template Name: Admin Pro Admin
-Author: Wrappixel
-Email: niravjoshi87@gmail.com
+Template Name: Pro Admin
+Author: Leandro C. Tomassini
+Email: airepublicodigital@gmail.com
 File: js
 */
 $(function() {
