@@ -15,8 +15,8 @@ export class RxjsComponent implements OnInit {
     // this.retornaObservable.pipe(
     //   retry()
     // ).subscribe({
-    //   next: (value: any) => console.log('Subs: ', value),
-    //   error: (err: any) => console.warn('Error', err),
+    //   next: (value) => console.log('Subs: ', value),
+    //   error: (err) => console.warn('Error', err),
     //   complete: () => console.info('Obs terminado')
     // });
   }
@@ -26,27 +26,27 @@ export class RxjsComponent implements OnInit {
   }
 
   // retornaObservable(): Observable<number> {
-  //   let i = -1;
+    // let i = -1;
 
-  //   const obs$ = new Observable<number>(observer => {
+    // const obs$ = new Observable<number>(observer => {
 
-  //     const intervalo = setInterval(() => {
+    //   const intervalo = setInterval(() => {
 
-  //       i++;
-  //       observer.next(i);
+    //     i++;
+    //     observer.next(i);
 
-  //       if (i === 4) {
-  //         clearInterval(intervalo);
-  //         observer.complete();
-  //       }
+    //     if (i === 4) {
+    //       clearInterval(intervalo);
+    //       observer.complete();
+    //     }
 
-  //       if (i === 2) {
-  //         observer.error('i llego al valor de 2')
-  //       }
+    //     if (i === 2) {
+    //       observer.error('i llego al valor de 2')
+    //     }
 
-  //     }, 1000);
-  //   });
+    //   }, 1000);
+    // });
 
-  //   return $obs;
+    // return obs$;
   // }
 }
